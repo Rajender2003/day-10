@@ -1,0 +1,11 @@
+import numpy as np
+import matplotlib.pyplot as plt
+overs=np.arange(1,16)
+scores=[1,4,5,7,8,12,14,15,4,8,9,6,7,8,7]
+plt.bar(overs,scores,color="yellow")
+plt.title("CSK SCORE BASED ON OVERS")
+plt.xlabel("OVERS FROM 1 TO 15")
+plt.ylabel("RUNS BY OVERS")
+plt.xticks(overs)
+plt.grid(axis="y",linestyle="-")
+plt.show()
