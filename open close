@@ -1,0 +1,6 @@
+a=open("csk.txt",'r')
+c=a.readline()
+while c:
+  print(c.strip())
+  c=a.readline()
+a.close()
